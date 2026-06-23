@@ -1,0 +1,1606 @@
+{
+  "language": {
+    "english": "English",
+    "simplifiedChinese": "Simplified Chinese",
+    "dutch": "Dutch",
+    "selectorLabel": "Language"
+  },
+  "nav": {
+    "discover": "Discover",
+    "trade": "Trade",
+    "copyTrade": "Copy Trade",
+    "aiTrading": "AI Trading",
+    "keywordTrading": "KeyWord Trading",
+    "situationRoom": "Situation Room",
+    "events": "Events",
+    "bridge": "Bridge",
+    "transfer": "Transfer",
+    "points": "Points",
+    "stats": "Stats",
+    "settings": "Settings",
+    "orders": "Orders",
+    "wallets": "Wallets",
+    "launch": "Launch",
+    "more": "More",
+    "home": "Go to Sparta home",
+    "spam": "Spam"
+  },
+  "common": {
+    "loading": "Loading...",
+    "loadingData": "Loading data...",
+    "waitingForData": "Waiting for data",
+    "noData": "No data",
+    "comingSoon": "Coming soon",
+    "enabled": "Enabled",
+    "disabled": "Disabled",
+    "save": "Save",
+    "saved": "Saved",
+    "cancel": "Cancel",
+    "close": "Close",
+    "confirm": "Confirm",
+    "connect": "Connect",
+    "disconnect": "Disconnect",
+    "connected": "Connected",
+    "guest": "Guest",
+    "spartan": "Spartan",
+    "status": "Status",
+    "saving": "Saving...",
+    "copied": "Copied",
+    "ok": "OK",
+    "unknown": "Unknown",
+    "unavailable": "Unavailable",
+    "done": "Done"
+  },
+  "search": {
+    "caOrSymbol": "SEARCH BY CA OR SYMBOL"
+  },
+  "theme": {
+    "toggle": "Toggle theme",
+    "darkMode": "Dark mode",
+    "lightMode": "Light mode"
+  },
+  "profile": {
+    "openMenu": "Open profile menu",
+    "menuLabel": "Profile menu"
+  },
+  "wallet": {
+    "connectWallet": "Connect Wallet",
+    "disconnectWallet": "Disconnect Wallet",
+    "insufficientBalance": "Insufficient balance"
+  },
+  "alerts": {
+    "openMenu": "Open alerts menu",
+    "menuLabel": "Alerts menu",
+    "title": "Alerts",
+    "description": "Choose which Sparta rows should trigger alerts.",
+    "newAiPick": "New token in Sparta AI Picks",
+    "newMigratedPick": "New token in Migrated"
+  },
+  "trade": {
+    "buy": "Buy",
+    "sell": "Sell",
+    "amount": "Amount",
+    "balance": "Balance",
+    "slippage": "Slippage",
+    "gas": "Gas",
+    "marketCap": "Market Cap",
+    "liquidity": "Liquidity",
+    "volume": "Volume",
+    "price": "Price",
+    "holders": "Holders",
+    "profitAndLoss": "Profit and Loss"
+  },
+  "discover": {
+    "title": "Discover",
+    "heroCopy": "Track live token flow across Sparta rows and chains.",
+    "newTokens": "NEW TOKENS",
+    "aiPicks": "SPARTA AI PICKS",
+    "upcoming": "UPCOMING",
+    "loadingTrendingPools": "Loading trending pools...",
+    "newTokensLoading": "New tokens loading...",
+    "row": "Discover row",
+    "rowsLabel": "Discover rows",
+    "trendingPoolsLabel": "Trending pools",
+    "mobileRowSelector": "Mobile row selector",
+    "feeds": {
+      "new": "NEW TOKENS",
+      "trending": "TRENDING",
+      "aiPicks": "SPARTA AI PICKS",
+      "upcoming": "UPCOMING",
+      "migrated": "MIGRATED",
+      "biggestWinners": "BIGGEST WINNERS",
+      "biggestLosers": "BIGGEST LOSERS"
+    },
+    "empty": {
+      "new": "New tokens loading..",
+      "trending": "Trending tokens loading..",
+      "aiPicks": "Sparta AI Picks loading..",
+      "upcoming": "Upcoming tokens loading..",
+      "migrated": "Migrated tokens loading..",
+      "biggestWinners": "Biggest winners loading..",
+      "biggestLosers": "Biggest losers loading.."
+    },
+    "status": {
+      "tokens": "Tokens: {count}",
+      "cached": "Cached: {count}",
+      "monitoring": "Monitoring: {count}",
+      "hours24": "24 HOURS: {count}",
+      "retrying": "Retrying...",
+      "live": "Live",
+      "preparingBaseFeed": "Preparing Base feed"
+    },
+    "unableToLoadTrendingPools": "Unable to load trending pools right now.",
+    "noTrendingPools": "No trending pools found."
+  },
+  "settings": {
+    "title": "Sparta Trading Profile",
+    "eyebrow": "Sparta Monitor",
+    "heroCopy": "Sparta is your champion for trading on ◎ Solana, ❖ BSC, Ξ Ethereum and Ξ Base.",
+    "back": "Back",
+    "config": "Config",
+    "actions": {
+      "saveSettings": "Save Settings"
+    },
+    "status": {
+      "locked": "Locked",
+      "readOnly": "Read only",
+      "live": "Live",
+      "saving": "Saving",
+      "saved": "Saved",
+      "saveFailed": "Save failed"
+    },
+    "sections": {
+      "chainSelection": "Chain Selection",
+      "tradeWallets": "Trade Wallets",
+      "presets": "Buy And Sell Presets",
+      "gas": "Gas Settings"
+    },
+    "fields": {
+      "selectedChain": "Chain selection",
+      "autogas": "AutoGas mode",
+      "selectedWallets": "Selected wallets",
+      "tradeWallets": "Trade Wallets",
+      "buyOne": "Buy preset one",
+      "buyTwo": "Buy preset two",
+      "buyThree": "Buy preset three",
+      "buyFour": "Buy preset four",
+      "buyFive": "Buy preset five",
+      "sellOne": "Sell preset one",
+      "sellTwo": "Sell preset two",
+      "sellThree": "Sell preset three",
+      "buyGwei": "Buy Gwei",
+      "sellGwei": "Sell Gwei",
+      "buyTip": "Buy tip",
+      "sellTip": "Sell tip",
+      "bribeTip": "Bribe Tip",
+      "priorityFee": "Priority Fee",
+      "jitoTip": "Jito Tip",
+      "ethSubmission": "ETH submission",
+      "slippage": "Slippage"
+    },
+    "options": {
+      "autogas": {
+        "off": "Off",
+        "low": "Low",
+        "med": "Med",
+        "high": "High"
+      },
+      "ethSubmission": {
+        "private": "Private",
+        "bundle": "Bundle"
+      }
+    },
+    "wallets": {
+      "summary": "Trade Wallets: {wallets}",
+      "loading": "Loading {chain} wallets...",
+      "walletLabel": "Wallet {number}",
+      "loginRequired": "Log in to manage trade wallets.",
+      "noneFound": "No managed wallets found for {chain}."
+    }
+  },
+  "token": {
+    "title": "Token Detail",
+    "detailCopy": "Inspect a selected contract and its chart panel inside Sparta.",
+    "thisToken": "this token",
+    "noLivePool": "No live pool is available for this token yet. You can wait for a pool to go live, or use Spam Snipe once it is available. Spam mode is still under construction.",
+    "spamSnipe": "Spam Snipe",
+    "chart": {
+      "type": "Chart type",
+      "candles": "Candles",
+      "line": "Line",
+      "timeframe": "Timeframe",
+      "metric": "Metric",
+      "indicators": "Indicators",
+      "resizeHeight": "Resize chart height",
+      "resizeHeightTitle": "Drag to resize chart height"
+    },
+    "mobile": {
+      "panelSelector": "Mobile token panel selector",
+      "transactions": "Transactions",
+      "tradeTerminal": "Trade Terminal"
+    },
+    "layout": {
+      "resizeTerminal": "Resize chart and trading terminal"
+    },
+    "links": {
+      "label": "Token links"
+    },
+    "favorites": {
+      "add": "Add token to favorites"
+    },
+    "trades": {
+      "recent": "Recent Trades",
+      "loading": "Loading trades...",
+      "waiting": "Waiting for trades...",
+      "none": "No trades",
+      "noneSentence": "No trades.",
+      "fills": "{count} fills",
+      "unavailable": "Trades unavailable",
+      "headers": {
+        "time": "Time",
+        "type": "Type",
+        "price": "Price",
+        "amount": "Amount",
+        "value": "Value",
+        "maker": "Maker",
+        "tx": "Tx"
+      }
+    },
+    "terminal": {
+      "loadingToken": "Loading token...",
+      "tradeSide": "Trade side",
+      "orderType": "Trade order type",
+      "buyAction": "buy",
+      "sellAction": "sell",
+      "instant": "Instant",
+      "dipBuy": "Dip Buy",
+      "sellPump": "Sell Pump",
+      "buyOrder": "Buy Order",
+      "sellOrder": "Sell Order",
+      "enterDip": "Enter dip percentage",
+      "enterPump": "Enter pump percentage",
+      "enterTargetMarketCap": "Enter target market cap",
+      "amountToBuy": "SOL amount to buy",
+      "amountToSell": "SOL amount to sell",
+      "sellPreset": "Sell: {amount}%",
+      "sellAll": "Sell All",
+      "buyGwei": "Buy Gwei",
+      "sellGwei": "Sell Gwei",
+      "priorityFee": "Priority Fee",
+      "jitoTip": "Jito Tip",
+      "saveLabel": "Save {label}"
+    },
+    "wallets": {
+      "loading": "Loading wallets...",
+      "noneFound": "No managed wallets found for {chain}.",
+      "noneSelected": "No wallets selected",
+      "selectedWallet": "Selected Wallet"
+    },
+    "volume": {
+      "timeframeStats": "Timeframe stats",
+      "statsTimeframe": "Stats timeframe"
+    },
+    "stats": {
+      "marketCap": "Market Cap",
+      "price": "Price",
+      "liquidity": "Liquidity",
+      "dex": "DEX",
+      "pooledQuote": "Pooled Quote",
+      "pooled": "Pooled {quote}",
+      "bonding": "Bonding",
+      "txns": "Txns",
+      "volume": "Volume",
+      "buys": "Buys",
+      "sells": "Sells",
+      "buyVol": "Buy Vol",
+      "sellVol": "Sell Vol",
+      "buyers": "Buyers",
+      "sellers": "Sellers",
+      "noTimeframeStats": "No timeframe stats available."
+    },
+    "safety": {
+      "title": "Token Safety & Info",
+      "loading": "Loading token safety details...",
+      "labels": {
+        "contract": "Contract",
+        "pair": "Pair",
+        "supply": "Supply",
+        "safetyScore": "Safety Score",
+        "liquidityPool": "Liquidity Pool",
+        "tokenAge": "Token Age",
+        "mintAuthority": "Mint Authority",
+        "freezeAuthority": "Freeze Authority",
+        "lpBurned": "LP Burned",
+        "holders": "Holders",
+        "buyTax": "Buy Tax",
+        "sellTax": "Sell Tax",
+        "contractVerified": "Contract Verified",
+        "ownership": "Ownership",
+        "first25": "First 25",
+        "transferTax": "Transfer Tax",
+        "burned": "Burned",
+        "clog": "Clog",
+        "mayhemMode": "Mayhem Mode"
+      },
+      "values": {
+        "disabled": "Disabled",
+        "pendingBond": "Pending Bond",
+        "yes": "Yes",
+        "no": "No",
+        "unknown": "Unknown",
+        "renounced": "Renounced",
+        "notRenounced": "Not Renounced",
+        "enabled": "Enabled"
+      },
+      "help": {
+        "contract": "The token contract address.",
+        "pair": "The current pool or pair contract address when available.",
+        "liquidityPool": "The main pool where this token is currently trading.",
+        "tokenAge": "How long ago this token launched.",
+        "supply": "The current total token supply.",
+        "safetyScore": "Rule-based score from 0 to 100 using launch source, market cap, liquidity, and 24H volume.",
+        "mintAuthority": "Shows whether new tokens can still be minted.",
+        "freezeAuthority": "Shows whether token transfers can still be frozen by an authority.",
+        "lpBurned": "Indicates whether the liquidity pool is effectively locked or burned.",
+        "contractVerified": "Shows whether the contract source code is publicly verified.",
+        "ownership": "Shows whether the contract owner revoked ownership.",
+        "buyTax": "Estimated buy tax.",
+        "sellTax": "Estimated sell tax.",
+        "transferTax": "Estimated transfer tax.",
+        "holders": "The number of wallets currently holding this token.",
+        "first25": "The share of supply held by the top 25 wallets, excluding the main LP when available.",
+        "burned": "The percentage of supply sent to known burn or dead addresses.",
+        "clog": "The percentage of supply sitting inside the token contract itself.",
+        "mayhemMode": "Indicates this token is launched on PumpFun Mayhem mode.",
+        "default": "Additional context for this token safety metric."
+      }
+    },
+    "holdings": {
+      "title": "Holdings",
+      "favorites": "Favorites",
+      "loading": "Loading holdings...",
+      "view": "Holdings view",
+      "loadingFavorites": "Loading favorites...",
+      "noFavorites": "No favorite {chain} tokens saved yet.",
+      "noHeld": "No held {chain} tokens found for your selected trade wallets."
+    },
+    "modal": {
+      "buyConfirmation": "Buy Confirmation",
+      "proceedWithBuy": "Proceed with buy?",
+      "confirmBuyGeneric": "Are you sure that you want to buy this token?",
+      "skipAgain": "Don’t ask this again",
+      "no": "No",
+      "yes": "Yes",
+      "close": "Close",
+      "highSolFee": "Your Priority Fee + Jito Tip is {amount} SOL combined, which exceeds the 1 SOL warning threshold. Are you sure you want to proceed?",
+      "highGweiFee": "Your {label} is set to {gwei} Gwei, which exceeds the 150 Gwei warning threshold. Are you sure you want to proceed?",
+      "confirmSell": "Are you sure that you want to sell \"{token}\"? Click Yes to proceed or No to cancel.",
+      "confirmBuy": "Are you sure that you want to buy \"{token}\"? Click Yes to proceed or No to cancel.",
+      "tradeSubmitted": "Trade Submitted",
+      "transactionSent": "Transaction sent",
+      "buySubmitted": "Buy Submitted",
+      "sellSubmitted": "Sell Submitted",
+      "buyWasSubmitted": "Your buy was submitted.",
+      "walletNumber": "Wallet {number}",
+      "transaction": "Transaction",
+      "confirmed": "Confirmed",
+      "failed": "Failed",
+      "pending": "Pending",
+      "transactionFailed": "Transaction failed",
+      "bundleFailedCopy": "One or more bundled transactions failed. Open {explorer} to inspect the receipts.",
+      "transactionFailedCopy": "This transaction failed. Open {explorer} to inspect the receipt.",
+      "sellFailedKicker": "Sell Failed",
+      "buyFailedKicker": "Buy Failed",
+      "sellFailed": "Sell failed",
+      "buyFailed": "Buy failed",
+      "sellConfirmedKicker": "Sell Confirmed",
+      "buyConfirmedKicker": "Buy Confirmed",
+      "bundleConfirmed": "Bundle confirmed",
+      "sellConfirmed": "Sell confirmed",
+      "buyConfirmed": "Buy confirmed",
+      "allBundledSellConfirmed": "All bundled sell transactions are confirmed on {chain}.",
+      "allBundledBuyConfirmed": "All bundled buy transactions are confirmed on {chain}.",
+      "sellConfirmedCopy": "Your sell transaction is confirmed on {chain}.",
+      "buyConfirmedCopy": "Your buy transaction is confirmed on {chain}.",
+      "sellPartial": "Sell Partial",
+      "buyPartial": "Buy Partial",
+      "bundlePartiallyFailed": "Bundle partially failed",
+      "partialFailedCopy": "{failed}/{total} transaction(s) failed. The rest are still being checked.",
+      "sellConfirming": "Sell Confirming",
+      "buyConfirming": "Buy Confirming",
+      "confirmingBundle": "Confirming bundle",
+      "confirmingSell": "Confirming sell",
+      "confirmingBuy": "Confirming buy",
+      "confirmedSoFar": "{confirmed}/{total} transaction(s) confirmed so far.",
+      "bundleSubmitted": "Bundle submitted",
+      "bundledSellSubmittedCopy": "Your bundled sell was submitted through the private builder. Waiting for confirmation...",
+      "bundledBuySubmittedCopy": "Your bundled buy was submitted through the private builder. Waiting for confirmation...",
+      "privateSellSubmittedCopy": "Your private sell transaction was submitted. Waiting for confirmation...",
+      "privateBuySubmittedCopy": "Your private buy transaction was submitted. Waiting for confirmation...",
+      "submission": "Submission",
+      "viewOnExplorer": "View on {explorer}",
+      "sellOrderCreated": "Sell Order Created",
+      "buyOrderCreated": "Buy Order Created",
+      "orderQueued": "Order queued",
+      "hours24": "24 hours"
+    },
+    "errors": {
+      "buyFailed": "Buy failed.",
+      "loginRequired": "You need to log in first before using the buy button.",
+      "noWalletSelected": "No {chain} trade wallet is selected in settings.",
+      "insufficientBalance": "The selected trade wallet does not have enough balance for this buy and gas.",
+      "routerMissing": "The trade router is not configured yet.",
+      "orderLimit": "You already have 5 active orders. Cancel one on the orders page before creating another.",
+      "ethV4": "Ethereum Uniswap V4 trading needs Universal Router calldata support before it can execute.",
+      "missingTokenBalance": "The selected trade wallets do not hold this token.",
+      "invalidDip": "Enter a dip percentage between 5% and 99%.",
+      "invalidTargetMarketCap": "Enter a valid target market cap for the order.",
+      "invalidSellPercent": "Choose a valid sell percentage.",
+      "invalidSellNativeAmount": "Enter a valid native amount to sell.",
+      "invalidPump": "Enter a valid pump percentage.",
+      "missingMarketCap": "This token does not have a usable market cap right now.",
+      "tradeFailed": "Trade failed. Please try again."
+    },
+    "boost": {
+      "missing": true,
+      "refreshesEvery30m": "Trending pools - refreshes every 30m"
+    }
+  },
+  "copytrade": {
+    "chainSelector": "Chain selector",
+    "title": "Copy Trade",
+    "heroCopy": "Track up to three wallets, label them clearly, and toggle copy trade on or off per wallet.",
+    "countInitial": "0 / 3 wallets",
+    "count": "{count} / {max} wallets",
+    "tracked": {
+      "kicker": "Sparta | Copy Trade Desk",
+      "title": "Tracked Wallets",
+      "copy": "Add up to three wallets and manage them from this page."
+    },
+    "dev": {
+      "kicker": "Sparta | Dev Launch Mirror",
+      "title": "Copy Dev Wallet",
+      "copy": "Add up to three developer wallets that should be mirrored when they launch a token."
+    },
+    "form": {
+      "walletName": "Wallet Name",
+      "walletNamePlaceholder": "Whale One",
+      "devWalletNamePlaceholder": "Dev Wallet One",
+      "walletAddress": "Wallet Address",
+      "walletAddressPlaceholder": "0x...",
+      "addWallet": "Add Wallet"
+    },
+    "alert": {
+      "warning": "Copy Trade Warning",
+      "unableToEnable": "Unable to enable Copy Trade",
+      "unableToEnableSentence": "Unable to enable Copy Trade.",
+      "insufficientFunds": "The selected trade wallets do not have enough funds to cover the next buy of {amount} {symbol}. Check {wallets}.",
+      "activityDetected": "Copy Trade activity detected."
+    },
+    "tradeWallet": {
+      "label": "Trade Wallets",
+      "summarySingular": "Trade Wallet: 0",
+      "summary": "Trade Wallets: {wallets}",
+      "option": "Wallet {number} - ...{tail}"
+    },
+    "presets": {
+      "buyAmount": "Buy: {amount}"
+    },
+    "settings": {
+      "customBuy": "Custom Buy",
+      "buyGwei": "Buy Gwei"
+    },
+    "card": {
+      "name": "Name: {name}",
+      "noWalletAddress": "No wallet address saved.",
+      "removeWallet": "Remove wallet",
+      "unnamedWallet": "Unnamed Wallet",
+      "unnamedDevWallet": "Unnamed Dev Wallet"
+    },
+    "empty": {
+      "tracked": "No wallets added yet. Add up to three wallets to start building your copy trade list.",
+      "dev": "No dev wallets added yet. Add up to three wallets to start building your dev copy list."
+    },
+    "status": {
+      "copyDevUnavailable": "Copy dev is not available on {chain}.",
+      "enterWalletName": "Enter a wallet name.",
+      "enterWalletAddress": "Enter a wallet address.",
+      "validWalletAddress": "Enter a valid {chain} wallet address.",
+      "walletAddressCopied": "Wallet address copied.",
+      "copyFailed": "Copy failed.",
+      "connectWalletFirst": "Connect a wallet first.",
+      "tradeWalletsSaved": "Trade wallets saved.",
+      "tradeWalletSaveFailed": "Trade wallet save failed.",
+      "walletSettingsSaved": "Wallet settings saved.",
+      "settingsSaveFailed": "Settings save failed.",
+      "noWalletManageTracked": "No wallet connected. Connect one manually if you want to manage tracked wallets.",
+      "noWalletManageDev": "No wallet connected. Connect one manually if you want to manage dev wallets.",
+      "loadFailed": "Load failed",
+      "maximumReached": "Maximum reached. Remove a wallet before adding another.",
+      "noWalletAddTracked": "No wallet connected. Connect one manually if you want to add a tracked wallet.",
+      "noWalletAddDev": "No wallet connected. Connect one manually if you want to add a dev wallet.",
+      "walletAdded": "Wallet added.",
+      "devWalletAdded": "Dev wallet added.",
+      "addFailed": "Add failed.",
+      "noWalletRemoveTracked": "No wallet connected. Connect one manually if you want to remove a tracked wallet.",
+      "noWalletRemoveDev": "No wallet connected. Connect one manually if you want to remove a dev wallet.",
+      "walletRemoved": "Wallet removed.",
+      "devWalletRemoved": "Dev wallet removed.",
+      "removeFailed": "Remove failed.",
+      "noWalletToggleTracked": "No wallet connected. Connect one manually if you want to enable or disable tracked wallets.",
+      "noWalletToggleDev": "No wallet connected. Connect one manually if you want to enable or disable dev wallets.",
+      "enableBlocked": "Enable blocked: selected trade wallets cannot cover the next buy.",
+      "copyTradeEnabled": "Copy trade enabled.",
+      "copyTradePaused": "Copy trade paused.",
+      "copyDevEnabled": "Copy dev wallet enabled.",
+      "copyDevPaused": "Copy dev wallet paused.",
+      "updateFailed": "Update failed."
+    },
+    "documentTitle": "Sparta Copy Trade"
+  },
+  "aiTrading": {
+    "documentTitle": "Sparta AI Trading",
+    "chainSelector": "Chain selector",
+    "title": "AI Trading",
+    "heroCopy": "AI trading controls and strategy panels will live here.",
+    "alert": {
+      "warning": "AI Trading Warning",
+      "unableToEnable": "Unable to enable AI Trading",
+      "unableToUpdate": "Unable to update AI Trading."
+    },
+    "fallback": {
+      "loadingControls": "Loading controls",
+      "preparingSettings": "Preparing your AI Trading settings.",
+      "loginRequired": "Login required to edit",
+      "viewOnlyCopy": "You can view AI Trading here, but enabling it or changing settings requires a logged-in wallet."
+    },
+    "card": {
+      "autoBuyTitle": "AI Trading Auto-Buy",
+      "autoBuyCopy": "Automatically buy tokens that enter the Sparta AI Picks row."
+    },
+    "presets": {
+      "buyAmount": "Buy: {amount}"
+    },
+    "settings": {
+      "customBuy": "Custom Buy",
+      "buyGwei": "Buy Gwei",
+      "buyFee": "Buy Fee",
+      "buyFeeSolana": "Buy Fee (Solana)"
+    },
+    "tradeWallet": {
+      "label": "Trade Wallets",
+      "summarySingular": "Trade Wallet: 0",
+      "summary": "Trade Wallets: {wallets}",
+      "option": "Wallet {number} - ...{tail}",
+      "optionShort": "Wallet {number}"
+    },
+    "autoSell": {
+      "title": "Auto Sell Targets",
+      "targetMultiplier": "Target {number} Multiplier - {multiplier}x ({profit})",
+      "targetSellPercent": "Target {number} Sell %"
+    },
+    "status": {
+      "loading": "Loading",
+      "saving": "Saving",
+      "updating": "Updating",
+      "saved": "Saved",
+      "saveFailed": "Save failed",
+      "connectWallet": "Connect wallet",
+      "viewOnly": "View only",
+      "unableToSave": "Unable to save AI Trading settings.",
+      "selectWalletBeforeEnable": "Select at least one AI trade wallet before enabling AI Trading.",
+      "oneOrMoreWalletsInsufficient": "One or more selected AI trade wallets cannot cover the next AI buy.",
+      "insufficientWalletBalance": "{wallets} do not have enough {symbol} to cover the next AI buy.",
+      "autoSellPercentLimit": "Combined auto-sell target percentages cannot exceed 100%."
+    }
+  },
+  "keywordTrading": {
+    "documentTitle": "Sparta KeyWord Trading",
+    "hero": {
+      "eyebrow": "Sparta Monitor",
+      "title": "KeyWord Trading",
+      "copy": "Configure up to three keywords. Any new token found on this chain whose name or symbol matches one of your active keywords can be queued for an automatic buy."
+    },
+    "overview": {
+      "title": "Automation Overview",
+      "copy": "Configure keyword-triggered automatic buys for the active chain.",
+      "network": "Network",
+      "networkCopy": "Scans new matches on the active chain only.",
+      "activeKeywords": "Active Keywords",
+      "activeKeywordsCopy": "Enable the exact keyword slots you want live.",
+      "triggerScope": "Trigger Scope",
+      "triggerScopeCopy": "Choose whether matching checks token names, symbols, or both."
+    },
+    "defaults": {
+      "title": "Execution Defaults",
+      "copy": "These apply to every keyword match.",
+      "automation": "Automation",
+      "enableCopy": "Enable automatic buys when a keyword is matched.",
+      "defaultBuyAmount": "Default Buy Amount",
+      "slippage": "Slippage %"
+    },
+    "fee": {
+      "buyFee": "Buy Fee",
+      "buyGwei": "Buy Gwei",
+      "unitFee": "fee",
+      "unitGwei": "gwei"
+    },
+    "tradeWallet": {
+      "selectedWallets": "Selected Wallets",
+      "loading": "Loading wallets...",
+      "select": "Select trade wallets",
+      "loginToChoose": "Login to choose wallets",
+      "summary": "Wallets: {wallets}",
+      "loginEmpty": "Log in to choose keyword trade wallets.",
+      "noneForChain": "No managed wallets found for {chain}.",
+      "option": "Wallet {number} - {address}",
+      "optionShort": "Wallet {number}"
+    },
+    "match": {
+      "title": "Match Against",
+      "tokenName": "Token Name",
+      "tokenNameCopy": "Match token names",
+      "tokenSymbol": "Token Symbol",
+      "tokenSymbolCopy": "Match token tickers"
+    },
+    "slots": {
+      "title": "Keyword Slots",
+      "copy": "Store up to three keywords. Empty slots stay inactive.",
+      "defaultLabel": "Keyword {number}",
+      "trigger": "Trigger {number}",
+      "keywordLabel": "Keyword",
+      "placeholder": "doge, pepe, ai..."
+    },
+    "summary": {
+      "title": "Live Summary",
+      "copy": "This mirrors the payload that can be sent to backend logic later.",
+      "statusSentence": "{chain} keyword trading is {status}.",
+      "executionSentence": "When a token contains one of your active keywords in the selected fields, Sparta will use a default buy of {amount}, slippage {slippage}%, and {fee} {unit}.",
+      "walletSentence": "Selected trade wallets: {wallets}.",
+      "emptyTitle": "No active keywords yet",
+      "emptyCopy": "Add up to three keywords. Empty slots stay inactive.",
+      "cardCopy": "Buy {amount} on {chain} when {scope} contains this keyword."
+    },
+    "scope": {
+      "nameSymbol": "Name + Symbol",
+      "nameOnly": "Name Only",
+      "symbolOnly": "Symbol Only",
+      "none": "No Match Target"
+    },
+    "status": {
+      "armed": "Armed",
+      "disabled": "Disabled",
+      "saving": "Saving"
+    },
+    "errors": {
+      "unableToSave": "Unable to save keyword settings.",
+      "missingKeyword": "Set at least one keyword before enabling keyword trading.",
+      "missingWallet": "Select at least one keyword trade wallet before enabling keyword trading.",
+      "insufficientSol": "At least one selected keyword wallet must have enough SOL to cover the configured buy and fee.",
+      "insufficientEth": "At least one selected keyword wallet must have enough ETH to cover the configured buy and gas.",
+      "insufficientBnb": "At least one selected keyword wallet must have enough BNB to cover the configured buy and gwei.",
+      "providerUnavailable": "Balance validation is temporarily unavailable."
+    }
+  },
+  "stats": {
+    "documentTitle": "Sparta Stats",
+    "hero": {
+      "eyebrow": "Sparta Monitor",
+      "title": "Stats Dashboard",
+      "copy": "View your full Sparta performance across Solana, BSC, and Ethereum from one place.",
+      "copyConnected": "View your complete performance overview since joining Sparta.",
+      "copyGuest": "View the stats layout without a connected account. Totals stay at zero until you log in."
+    },
+    "panel": {
+      "kicker": "Sparta | Stats Dashboard",
+      "title": "Your Performance",
+      "statusDefault": "Connect a wallet or open the page with a Telegram user id to load your stats.",
+      "statusConnected": "Live totals from the same Sparta database used by the Telegram bot.",
+      "statusGuest": "No account connected. Showing zero values.",
+      "statusNoRow": "No stats row exists yet for this account. Showing zero values."
+    },
+    "metrics": {
+      "totalTransactions": "Total Transactions",
+      "totalVolume": "Total Volume",
+      "buyVol": "Buy Vol",
+      "sellVol": "Sell Vol",
+      "buyTxs": "Buy TXs",
+      "sellTxs": "Sell TXs"
+    },
+    "error": {
+      "title": "Stats",
+      "metamaskOnly": "Stats auth currently supports MetaMask wallets only.",
+      "unableToLoad": "Unable to load stats right now."
+    }
+  },
+  "situationRoom": {
+    "documentTitle": "Sparta Situation Room",
+    "hero": {
+      "eyebrow": "Sparta Monitor",
+      "title": "Situation Room",
+      "copy": "High-priority market context, live watchlists, and operator tools will live here."
+    },
+    "feed": {
+      "kicker": "Situation Room | X Feed",
+      "loading": "Loading feed...",
+      "unavailable": "Feed unavailable right now.",
+      "unknownTime": "Unknown time",
+      "openOnX": "Open on X"
+    }
+  },
+  "events": {
+    "documentTitle": "Sparta Events",
+    "hero": {
+      "eyebrow": "Sparta Monitor",
+      "title": "Events",
+      "copy": "Track current Sparta events and upcoming drops, campaigns, and community milestones."
+    },
+    "panel": {
+      "kicker": "Sparta | Events",
+      "title": "Current Events",
+      "copy": "We also share all active events on our official X page and in our Telegram group so you can stay updated in real time."
+    },
+    "empty": {
+      "status": "Status",
+      "title": "No live event cards added yet.",
+      "copy": "When new campaigns, launches, or community events go live, they will appear here first."
+    }
+  },
+  "wallets": {
+    "documentTitle": "Sparta Wallets",
+    "hero": {
+      "eyebrow": "Sparta Wallet Vault",
+      "title": "Wallets",
+      "copy": "Securely manage your Sparta trade wallets. Always save your keys securely, because Sparta cannot recover them for you."
+    },
+    "panel": {
+      "title": "Managed Wallets"
+    },
+    "count": {
+      "initial": "0 / 5 wallets",
+      "summary": "{count} / {max} wallets"
+    },
+    "fields": {
+      "walletName": "Wallet Name",
+      "privateKey": "Private Key"
+    },
+    "import": {
+      "title": "Import Private Key",
+      "copy": "Import an existing private key. The key is encrypted server-side and never rendered back in the UI.",
+      "copySol": "Import a Solana secret key or create a new managed Solana wallet. The key is encrypted server-side and never rendered back in the UI.",
+      "copyEvm": "Import an existing EVM private key or create a new managed EVM wallet. The key is encrypted server-side and never rendered back in the UI.",
+      "namePlaceholder": "Imported Wallet One"
+    },
+    "actions": {
+      "createWallet": "Create Wallet",
+      "importWallet": "Import Wallet",
+      "deleteWallet": "Delete Wallet",
+      "saveName": "Save Name",
+      "fundWallet": "Fund Wallet",
+      "fundWithSymbol": "Fund with {symbol}"
+    },
+    "trade": {
+      "title": "Trade Wallets",
+      "empty": "No trade wallets connected yet.",
+      "connectedCopy": "Connected signing wallets and their current {network} balances.",
+      "noWalletsYet": "No trade wallets yet. Import or create up to 5 trade wallets by clicking the buttons."
+    },
+    "connected": {
+      "emptyTitle": "No connected wallet",
+      "emptyCopy": "Connect MetaMask or Phantom from the profile menu first.",
+      "mainWallet": "{type} - Main Wallet",
+      "wallet": "Wallet"
+    },
+    "delete": {
+      "title": "Delete Wallet",
+      "copy": "Are you sure you want to delete this wallet? We cannot recover it after deletion."
+    },
+    "rename": {
+      "title": "Edit Wallet Name",
+      "copy": "Type a new name for this wallet and confirm to save it."
+    },
+    "fund": {
+      "title": "Fund Trade Wallets",
+      "copy": "Choose a destination trade wallet and amount to fund from your connected browser wallet.",
+      "destination": "Destination Trade Wallet"
+    },
+    "privateKey": {
+      "title": "Save Your Private Key",
+      "copy": "This private key is shown once. Save it now. Sparta cannot show it again later.",
+      "copyButton": "Copy Private Key",
+      "copied": "Private key copied.",
+      "copyFailed": "Copy failed. Select and copy the key manually."
+    },
+    "copy": {
+      "addressCopied": "Wallet address copied",
+      "failed": "Copy failed"
+    },
+    "errors": {
+      "connectFirst": "Connect a wallet first.",
+      "walletLimitReached": "Wallet limit reached.",
+      "walletNameRequired": "Please pick a wallet name before creating a wallet.",
+      "deleteFailed": "Delete failed",
+      "renameFailed": "Rename failed",
+      "createFailed": "Create failed",
+      "importFailed": "Import failed"
+    }
+  },
+  "bridge": {
+    "documentTitle": "Sparta Bridge",
+    "hero": {
+      "eyebrow": "Sparta Cross-Chain",
+      "title": "Bridge",
+      "copy": "Bridge native BNB, ETH, SOL, and Base ETH using Bungee. Integration uses no Sparta fee markup (integrator fee set to 0)."
+    },
+    "panel": {
+      "title": "Bridge Native Assets"
+    },
+    "setup": {
+      "title": "Bridge Setup",
+      "copy": "Choose source chain, destination wallet, and amount. Route opens in Bungee for execution.",
+      "dynamicCopy": "Execute {from} -> {to} bridge inside Sparta (Bungee route, no Sparta fee markup)."
+    },
+    "fields": {
+      "fromChain": "From Chain",
+      "toChain": "To Chain",
+      "toChainNote": "Select any destination chain except the source chain.",
+      "sourceWallet": "Source Wallet",
+      "destinationWallet": "Destination Wallet",
+      "customDestination": "Custom destination address (optional)",
+      "customDestinationNote": "If filled, custom address overrides selected wallet."
+    },
+    "actions": {
+      "unwrapWsol": "Temporary: Unwrap WSOL (Selected Sol Wallet)",
+      "bridgeNow": "Bridge Now",
+      "bridging": "Bridging...",
+      "copyBridgeRef": "Copy Bridge Ref",
+      "copyBridgeId": "Copy Bridge ID",
+      "copySourceTx": "Copy Source Tx",
+      "copyDestinationTx": "Copy Destination Tx"
+    },
+    "unwrap": {
+      "available": "Available for managed Sol wallets only.",
+      "selected": "Managed Sol wallet selected: {wallet}."
+    },
+    "quote": {
+      "enterAmount": "Enter an amount to preview your bridge quote."
+    },
+    "status": {
+      "connectCompatible": "Connect a compatible wallet to continue.",
+      "ready": "Ready to bridge in-app.",
+      "resumed": "Resumed bridge tracking from previous session.",
+      "connectLoadDestinations": "Connect a wallet to load managed destinations.",
+      "walletLoadFailed": "Wallet load failed.",
+      "noActiveBridge": "No active bridge yet. Submit one first.",
+      "referenceCopied": "Bridge reference copied.",
+      "copyFailed": "Copy failed. Please try again.",
+      "selectManagedSol": "Select a managed Sol wallet first.",
+      "bridgeIdCopied": "Bridge ID copied.",
+      "bridgeIdCopyFailed": "Could not copy Bridge ID.",
+      "sourceTxCopied": "Source tx copied.",
+      "sourceTxCopyFailed": "Could not copy source tx.",
+      "destinationTxCopied": "Destination tx copied.",
+      "destinationTxCopyFailed": "Could not copy destination tx."
+    },
+    "tracking": {
+      "title": "Bridge Tracking",
+      "copy": "Use these IDs/hashes for troubleshooting and support.",
+      "bridgeId": "Bridge ID:",
+      "sourceTx": "Source Tx:",
+      "destinationTx": "Destination Tx:",
+      "currentStage": "Current Stage:",
+      "statusCode": "Bungee Status Code:",
+      "route": "Route:",
+      "refund": "Refund:"
+    }
+  },
+  "transfer": {
+    "documentTitle": "Sparta Transfer",
+    "hero": {
+      "eyebrow": "Sparta Wallet Transfer",
+      "title": "Transfer",
+      "copy": "Move native funds between your managed wallets or fund managed wallets from your connected MetaMask or Phantom profile wallet."
+    },
+    "panel": {
+      "nativeTitle": "Send Native Funds",
+      "tokenTitle": "Send Tokens"
+    },
+    "inventory": {
+      "title": "Wallet Inventory",
+      "loading": "Loading wallets...",
+      "noManaged": "No managed wallets available."
+    },
+    "form": {
+      "title": "New Transfer",
+      "copy": "Choose a source wallet, destination wallet, and amount to send.",
+      "copyTokenSol": "Send SPL tokens on Solana from selected source wallet(s) to a destination wallet.",
+      "copyTokenEth": "Send ERC-20 tokens on Ethereum from selected source wallet(s) to a destination wallet.",
+      "copyTokenBase": "Send ERC-20 tokens on Base from selected source wallet(s) to a destination wallet.",
+      "copyTokenBsc": "Send BEP-20 tokens on BNB Chain from selected source wallet(s) to a destination wallet.",
+      "copyNativeSol": "Send SOL from Phantom or from one or multiple managed Solana wallets.",
+      "copyNativeEth": "Send ETH from an EVM wallet or from one or multiple managed Ethereum wallets.",
+      "copyNativeBase": "Send ETH from an EVM wallet or from one or multiple managed Base wallets.",
+      "copyNativeBsc": "Send BNB from MetaMask or from one managed BSC wallet to another."
+    },
+    "fields": {
+      "transferType": "Transfer Type",
+      "tokenContract": "Token Contract Address",
+      "tokenMintPlaceholder": "Token mint address",
+      "source": "Source",
+      "multipleSources": "Source Wallets (Multiple)",
+      "destination": "Destination",
+      "customAddress": "Custom Address",
+      "walletAddressPlaceholder": "Wallet address"
+    },
+    "mode": {
+      "sendToken": "Send Token",
+      "sendSymbol": "Send {symbol}"
+    },
+    "actions": {
+      "confirmToken": "Confirm Token",
+      "max": "Max",
+      "sendTransfer": "Send Transfer"
+    },
+    "wallet": {
+      "mainWallet": "Main Wallet"
+    },
+    "status": {
+      "connectToStart": "Connect a wallet to start.",
+      "noAccount": "No account connected. Connect a wallet to enable transfers.",
+      "noTransferableWallets": "No transferable wallets are available on this chain.",
+      "chooseSourceDestinationAmount": "Choose a source, destination, and amount."
+    },
+    "result": {
+      "submitted": "Transfer Submitted",
+      "transactionSent": "Transaction sent",
+      "copySubmitted": "Your transfer was submitted."
+    },
+    "errors": {
+      "connectFirst": "Connect a wallet first.",
+      "selectSource": "Select a source wallet.",
+      "selectDestination": "Select or enter a destination address.",
+      "enterAmount": "Enter an amount to transfer.",
+      "enterToken": "Enter a token contract address.",
+      "confirmToken": "Confirm token selection before sending.",
+      "sameWallet": "Source and destination cannot be the same wallet.",
+      "selectOneSource": "Select at least one source wallet.",
+      "unableToLoadWallets": "Unable to load wallets."
+    }
+  },
+  "points": {
+    "documentTitle": "Sparta Points",
+    "hero": {
+      "eyebrow": "Sparta Rewards",
+      "title": "Points",
+      "copy": "Track the value already stored in the database while the next volume-based rewards model is being prepared."
+    },
+    "panel": {
+      "kicker": "Sparta | Points Dashboard",
+      "title": "Volume-Based Rewards"
+    },
+    "copy": {
+      "connected": "Points are based on trading volume and referral volume. You can unlock prizes, extra wallets, or discounts on trading fees.",
+      "guest": "Connect a wallet to view your stored database points and lifetime Sparta trading volume."
+    },
+    "status": {
+      "connected": "More information about Points is coming soon. Previous volume and referrals are taken into account.",
+      "guest": "No account connected. Showing zero values.",
+      "noRow": "No points row exists yet for this account. Showing zero values."
+    },
+    "metrics": {
+      "storedPoints": "Stored Points",
+      "programStatus": "Program Status",
+      "pendingFormula": "Pending new formula"
+    },
+    "errors": {
+      "metamaskOnly": "Points auth currently supports MetaMask wallets only.",
+      "unableToLoad": "Unable to load points right now."
+    }
+  },
+  "orders": {
+    "documentTitle": "Sparta Orders",
+    "hero": {
+      "eyebrow": "Sparta Order Management",
+      "title": "Orders",
+      "copy": "Review and cancel your pending buy orders, sell orders, dip buys, and sell pumps from one place."
+    },
+    "panel": {
+      "title": "Active Orders",
+      "chainTitle": "{chain} Orders"
+    },
+    "pending": {
+      "title": "Pending and Processing"
+    },
+    "status": {
+      "connectLoad": "Connect a wallet to load your active orders.",
+      "loading": "Loading {chain} orders...",
+      "showingActive": "Showing active {chain} orders.",
+      "noActiveFound": "No active {chain} orders found.",
+      "connectManage": "Connect a wallet to manage your orders.",
+      "cancelling": "Cancelling order...",
+      "cancelled": "Order cancelled."
+    },
+    "count": {
+      "activeInitial": "0 active orders",
+      "active": "{count} active {label}",
+      "order": "order",
+      "orders": "orders"
+    },
+    "actions": {
+      "refresh": "Refresh",
+      "keepOrder": "Keep Order",
+      "cancelOrder": "Cancel Order",
+      "cancelling": "Cancelling...",
+      "hideTriggered": "Hide triggered activity",
+      "viewTx": "View Tx"
+    },
+    "empty": {
+      "noOrdersYet": "No Orders Yet",
+      "noOrdersCopy": "Your active orders will appear here once you create one.",
+      "noActiveTitle": "No Active Orders",
+      "noActiveCopy": "You do not have any pending or processing {chain} orders right now."
+    },
+    "triggered": {
+      "title": "Triggered",
+      "statusDefault": "Recent triggered orders and copy trades will appear here.",
+      "countInitial": "0 triggered",
+      "count": "{count} triggered",
+      "showing": "Showing recent triggered {chain} activity.",
+      "none": "No triggered {chain} activity yet.",
+      "emptyTitle": "No Triggered Activity",
+      "emptyCopy": "Triggered orders and copy trades will appear here after execution."
+    },
+    "cancel": {
+      "kicker": "Order Cancellation",
+      "title": "Cancel order?",
+      "copy": "Are you sure you want to cancel this order?",
+      "dynamicCopy": "Cancel {type} for {token}? This action cannot be undone."
+    },
+    "types": {
+      "dipBuy": "Dip Buy",
+      "buyOrder": "Buy Order",
+      "sellPump": "Sell Pump",
+      "sellOrder": "Sell Order",
+      "order": "Order",
+      "copyTrade": "Copy Trade",
+      "copyDev": "Copy Dev",
+      "aiAutoBuy": "AI Auto-Buy",
+      "keywordTrading": "Keyword Trading",
+      "spamBuy": "Spam Buy"
+    },
+    "details": {
+      "token": "Token: {token} ({address})",
+      "buyAmount": "Buy Amount: {amount} {symbol}",
+      "sellPercent": "Sell Percent: {percent}%",
+      "triggerDip": "Trigger: {percent}% dip to {marketCap}",
+      "triggerPump": "Trigger: {percent}% pump to {marketCap}",
+      "targetMarketCap": "Target Market Cap: {marketCap}",
+      "expires": "Expires: {time}",
+      "created": "Created {time}",
+      "triggered": "Triggered {time}",
+      "transactions": "Transactions: {count}"
+    },
+    "errors": {
+      "connectView": "Connect a wallet to view your orders.",
+      "notFound": "That order could not be found.",
+      "notCancellable": "That order can no longer be cancelled.",
+      "unavailable": "Orders are temporarily unavailable.",
+      "failedLoad": "Failed to load orders.",
+      "failedCancel": "Failed to cancel the order."
+    }
+  },
+  "referral": {
+    "documentTitle": "Sparta Referral",
+    "hero": {
+      "eyebrow": "Sparta Monitor",
+      "title": "Referral Dashboard",
+      "copy": "Share your referral link in the trenches and receive lifetime commission on their trading fees."
+    },
+    "panel": {
+      "kicker": "Sparta | Referral Dashboard",
+      "title": "Referral Overview"
+    },
+    "copy": {
+      "active": "Share your referral link in the trenches and receive {percent}% commission on their trading fees for lifetime.",
+      "create": "Create your referral ID to unlock your share link and start receiving {percent}% lifetime commission on trading fees."
+    },
+    "actions": {
+      "copyId": "Copy ID",
+      "copiedId": "Copied ID",
+      "copyLink": "Copy Link",
+      "copiedLink": "Copied Link",
+      "createRefId": "Create Ref ID"
+    },
+    "metrics": {
+      "referralId": "Referral ID",
+      "notSet": "Not set",
+      "referralLink": "Referral Link",
+      "createToUnlock": "Create your referral ID below to unlock your share link.",
+      "creationDate": "Creation Date",
+      "referredUsers": "Referred Users",
+      "referralPercentage": "Referral Percentage",
+      "totalVol": "Total Vol",
+      "totalEarned": "Total Earned",
+      "totalClaimed": "Total Claimed",
+      "pending": "Pending"
+    },
+    "modal": {
+      "title": "Create Referral ID",
+      "copy": "Choose a unique referral ID with up to 14 letters or numbers. No spaces or special characters.",
+      "closeLabel": "Close create referral modal",
+      "placeholder": "Enter referral ID",
+      "enterFirst": "Enter a referral ID first.",
+      "creating": "Creating referral ID...",
+      "created": "Referral ID {id} created.",
+      "invalid": "Invalid ID. Use up to 14 letters or numbers only.",
+      "taken": "That referral ID is already taken.",
+      "exists": "This account already has a referral ID.",
+      "connectFirst": "Connect a linked wallet first to create a referral ID.",
+      "unableCreate": "Unable to create referral ID right now."
+    },
+    "wallet": {
+      "metamaskNotFound": "MetaMask not found",
+      "metamaskFailed": "MetaMask failed",
+      "phantomNotFound": "Phantom not found",
+      "phantomFailed": "Phantom failed"
+    },
+    "errors": {
+      "connectCreate": "Connect a wallet or open the page with a Telegram user id, then create your referral ID to start using the dashboard.",
+      "noRecord": "No referral record exists yet for this wallet or Telegram account. You can create your referral ID now.",
+      "unavailable": "Referral dashboard unavailable right now. Showing an empty dashboard state."
+    }
+  },
+  "terminalHome": {
+    "documentTitle": "Sparta PRO",
+    "hero": {
+      "eyebrow": "Sparta Monitor",
+      "title": "Trading Terminal",
+      "copy": "Sparta is your champion for trading on ◎ Solana, ❖ BSC, Ξ Ethereum and Ξ Base."
+    },
+    "board": {
+      "ariaLabel": "Token rows"
+    },
+    "alerts": {
+      "ethereumComingSoon": "Ethereum alerts will be enabled when the feed goes live.",
+      "baseComingSoon": "Base alerts will be enabled when the feed goes live.",
+      "newAiPickTitle": "New Sparta AI Pick",
+      "newAiPickCopy": "{token} appeared in Sparta AI Picks."
+    },
+    "status": {
+      "loadingTrending": "Loading trending",
+      "waitingForData": "Waiting for data",
+      "noData": "No data",
+      "hours24Zero": "24 HOURS: 0",
+      "preparingEthereumFeed": "Preparing Ethereum feed",
+      "preparingBaseFeed": "Preparing Base feed",
+      "live": "Live",
+      "liveUpper": "LIVE",
+      "backfilling": "BACKFILLING",
+      "waiting": "WAITING",
+      "retrying": "Retrying...",
+      "retryingUpper": "RETRYING",
+      "cached": "Cached: {count}",
+      "tokens": "Tokens: {count}",
+      "monitoring": "Monitoring: {count}",
+      "hours24": "24 HOURS: {count}"
+    },
+    "empty": {
+      "baseMigratedLoading": "Base migrated tokens loading..",
+      "ethereumMigratedComingSoon": "Ethereum migrated tokens will appear here once the backend logic is added.",
+      "baseAiPicksLoading": "Base Sparta AI Picks loading.."
+    },
+    "legal": {
+      "ariaLabel": "Legal links",
+      "privacy": "Privacy policy",
+      "terms": "Terms of service",
+      "fees": "Fees",
+      "tradingViewTitle": "Charts are powered by TradingView"
+    },
+    "highFee": {
+      "kicker": "High Fee Warning",
+      "title": "Fees are unusually high",
+      "skipAgain": "Don't warn me again",
+      "bscCopy": "Your Buy Gwei is set to {amount} Gwei, which exceeds the 150 Gwei warning threshold. Are you sure you want to proceed?",
+      "solCopy": "Your Priority Fee + Jito Tip is {amount} SOL combined, which exceeds the 1 SOL warning threshold. Are you sure you want to proceed?"
+    },
+    "buy": {
+      "kicker": "Buy Confirmation",
+      "title": "Proceed with buy?",
+      "copy": "Are you sure that you want to buy this token?",
+      "skipAgain": "Don’t ask this again",
+      "namedCopy": "Are you sure that you want to buy \"{token}\"? Click Yes to proceed or No to cancel.",
+      "ethAmountCopy": "Buy {amount} ETH of this token?"
+    },
+    "result": {
+      "submitted": "Buy Submitted",
+      "transactionSent": "Transaction sent",
+      "copy": "Your buy was submitted.",
+      "buyFailed": "Buy Failed",
+      "buyFailedTitle": "Buy failed",
+      "transactionFailed": "Transaction failed",
+      "buyConfirmed": "Buy Confirmed",
+      "buyConfirmedTitle": "Buy confirmed",
+      "buyPartial": "Buy Partial",
+      "buyConfirming": "Buy Confirming",
+      "buyDropped": "Buy Dropped",
+      "transactionDropped": "Transaction dropped",
+      "bundleConfirmed": "Bundle confirmed",
+      "bundlePartiallyFailed": "Bundle partially failed",
+      "confirmingBundle": "Confirming bundle",
+      "confirmingBuy": "Confirming buy",
+      "bundleSubmitted": "Bundle submitted",
+      "transaction": "Transaction",
+      "walletLabel": "Wallet {number}",
+      "submission": "Submission",
+      "submittedPrivately": "Submitted privately",
+      "viewOnBscScan": "View on BscScan",
+      "viewOnSolscan": "View on Solscan",
+      "partialFailed": "{failed}/{total} transactions failed. The rest are still being checked.",
+      "confirmedSoFar": "{confirmed}/{total} transactions confirmed so far.",
+      "bscBundleFailed": "One or more bundled transactions failed. Open BscScan to inspect the receipts.",
+      "bscSingleFailed": "This transaction failed. Open BscScan to inspect the receipt.",
+      "bnbBundleConfirmed": "All bundled buy transactions are confirmed on BNB Chain.",
+      "bnbSingleConfirmed": "Your buy transaction is confirmed on BNB Chain.",
+      "privateBuilderSubmitted": "Your bundled buy was submitted through the private builder. Waiting for confirmation...",
+      "privateBuySubmitted": "Your private buy transaction was submitted. Waiting for confirmation...",
+      "solDroppedBundle": "These bundled transactions were submitted but did not land on-chain before expiring.",
+      "solDroppedSingle": "This transaction was submitted but did not land on-chain before expiring.",
+      "solBundleFailed": "One or more bundled transactions failed. Open Solscan to inspect the receipts.",
+      "solSingleFailed": "This transaction failed. Open Solscan to inspect the receipt.",
+      "solBundleConfirmed": "All bundled buy transactions are confirmed on Solana.",
+      "solSingleConfirmed": "Your buy transaction is confirmed on Solana.",
+      "jitoBundleSubmitted": "Your bundled buy was submitted through Jito. Waiting for confirmation...",
+      "jitoBuySubmitted": "Your private buy transaction was submitted through Jito. Waiting for confirmation...",
+      "ethSingleFailed": "This transaction failed. Open Etherscan to inspect the receipt.",
+      "ethBundleConfirmed": "All Ethereum buy transactions are confirmed.",
+      "ethSingleConfirmed": "Your Ethereum buy transaction is confirmed.",
+      "ethPrivateSubmitted": "Your private Ethereum buy was submitted. Waiting for confirmation...",
+      "status": {
+        "confirmed": "Confirmed",
+        "failed": "Failed",
+        "pending": "Pending",
+        "dropped": "Dropped"
+      }
+    },
+    "actions": {
+      "cancel": "Cancel",
+      "proceed": "Proceed",
+      "no": "No",
+      "yes": "Yes",
+      "close": "Close",
+      "copied": "Copied"
+    },
+    "errors": {
+      "buyFailed": "Buy failed.",
+      "buyFailedTryAgain": "Buy failed. Please try again.",
+      "loginFirst": "You need to log in first before using the buy button.",
+      "connectFirst": "Connect a wallet first.",
+      "noBscWallet": "No BSC trade wallet is selected in settings.",
+      "noSolWallet": "No Solana trade wallet is selected in settings.",
+      "noEthWallet": "No ETH trade wallet is selected.",
+      "insufficientBsc": "The selected trade wallet does not have enough balance for this buy and gas.",
+      "insufficientSol": "The selected trade wallet does not have enough balance for this buy and fees.",
+      "insufficientEth": "Insufficient ETH for buy and gas.",
+      "missingBuyRouter": "The buy router is not configured yet.",
+      "missingEthRouter": "ETH router is not configured.",
+      "ethV4NotWired": "Uniswap V4 execution is not wired yet.",
+      "unsupportedEthRoute": "This token route is not supported yet.",
+      "solBuildFailed": "Buy failed before submission. Please try again.",
+      "unsupportedSolToken": "This token is not supported for direct Solana buys yet."
+    }
+  },
+  "spam": {
+    "documentTitle": "Sparta Spam",
+    "hero": {
+      "eyebrow": "Sparta Monitor",
+      "title": "Spam",
+      "copy": "Ethereum spam controls will live here."
+    },
+    "panel": {
+      "title": "Spam"
+    },
+    "wallets": {
+      "title": "Spam Wallets",
+      "copy": "Select one existing Ethereum trade wallet for spam.",
+      "loading": "Loading ETH wallets...",
+      "countOne": "{count} wallet",
+      "countMany": "{count} wallets",
+      "empty": "No ETH trade wallets found.",
+      "fallbackName": "Wallet {number}"
+    },
+    "token": {
+      "title": "Token",
+      "copy": "Paste an Ethereum contract before selecting buy settings.",
+      "dex": "Dex: {dex}",
+      "limitsDisabled": "Limits disabled",
+      "enterValidContract": "Enter a valid Ethereum contract.",
+      "checking": "Checking token...",
+      "notFound": "Token was not found.",
+      "cannotSelect": "Token cannot be selected for spam.",
+      "lookupFailed": "Token lookup failed."
+    },
+    "fields": {
+      "contract": "Contract",
+      "customBuy": "Custom Buy",
+      "gwei": "Gwei",
+      "entryMode": "Entry Mode",
+      "buyPercentage": "Buy Percentage"
+    },
+    "actions": {
+      "check": "Check",
+      "start": "Start Spam",
+      "stop": "Stop",
+      "select": "Select",
+      "selected": "Selected"
+    },
+    "mode": {
+      "maxTx": "Max TX",
+      "customPercent": "Custom %",
+      "ethAmount": "ETH Amount",
+      "maxWallet": "Max Wallet",
+      "whitelist": "Whitelist",
+      "hybrid": "Hybrid",
+      "topUp3": "Top Up (3)",
+      "normal": "Normal",
+      "untilEntry": "Until Entry",
+      "liveWindow": "Live Window",
+      "whitelistLower": "whitelist",
+      "hybridLower": "hybrid"
+    },
+    "status": {
+      "connectWallet": "Connect wallet",
+      "loading": "Loading",
+      "draft": "Draft",
+      "unavailable": "Unavailable",
+      "hybridIdle": "Hybrid idle",
+      "target": "target",
+      "spamming": "Spamming {target}{amount}{token}{expiry}{currentBlock}",
+      "completed": "Spam buy completed successfully",
+      "completedInBlock": "Spam buy completed successfully in block {block}",
+      "buyFailed": "Spam Buy Failed",
+      "stopped": "Stopped",
+      "submitting": "Submitting {mode} spam transaction...",
+      "stopping": "Stopping spam...",
+      "checkingActive": "Checking active spam job..."
+    },
+    "runtime": {
+      "balanceUnavailable": "Balance unavailable",
+      "buyAmount": "Buy: {amount}"
+    },
+    "errors": {
+      "missingReadableMaxTx": "No readable max tx found. Select Max Wallet or Custom %.",
+      "missingReadableMaxWallet": "No readable max wallet found. Select Max TX or Custom %.",
+      "missingTotalSupply": "Total supply could not be read for Custom %.",
+      "invalidBuyPercentage": "Enter a valid Custom % between 0 and 100.",
+      "selectWallet": "Select an ETH spam wallet.",
+      "validEthCap": "Select a valid ETH cap.",
+      "tokenAlreadyLive": "Token is already live.",
+      "tokenAlreadyTradeable": "Token already appears tradeable.",
+      "insufficientBalance": "Selected spam wallet has insufficient ETH for cap and gas.",
+      "missingRouter": "ETH router address is not configured for spam.",
+      "noActiveJob": "No active spam job found.",
+      "activeJobExists": "Stop your active spam job before starting another one.",
+      "requestFailed": "Spam request failed.",
+      "connectWallet": "Connect wallet.",
+      "selectToken": "Select a token contract.",
+      "stopFailed": "Spam stop failed."
+    }
+  },
+  "dashboard": {
+    "documentTitle": "Sparta Dashboard",
+    "nav": {
+      "ariaLabel": "Dashboard sections",
+      "dashboard": "Dashboard",
+      "walletSetup": "Wallet Setup",
+      "rules": "Rules",
+      "faq": "FAQ"
+    },
+    "hero": {
+      "eyebrow": "Prop Trading Overview",
+      "title": "Dashboard",
+      "copy": "Track wallet setup, review your evaluation wallet, and keep the current program thresholds in one place."
+    },
+    "panel": {
+      "phase": "Phase 1",
+      "walletSetup": "Wallet Setup"
+    },
+    "status": {
+      "checkingSession": "Checking session",
+      "loginRequired": "Login required",
+      "loading": "Loading dashboard",
+      "unableToLoad": "Unable to load dashboard"
+    },
+    "actions": {
+      "openLogin": "Open Login"
+    },
+    "steps": {
+      "step1": "Step 1",
+      "step2": "Step 2",
+      "step3": "Step 3",
+      "login": {
+        "title": "Login with Sparta",
+        "copy": "Use the same Sparta login methods you already have on the main app. Your prop profile sits on top of that identity."
+      },
+      "generate": {
+        "title": "Generate Your Prop Wallet",
+        "copy": "Once logged in, create a dedicated Sparta-managed wallet for evaluation. This wallet is where your PropTrading activity will be tracked."
+      },
+      "track": {
+        "title": "Start Building Your Track Record",
+        "copy": "All qualifying trades need to run through Sparta. Your consistency, discipline, and performance will determine funding eligibility."
+      }
+    },
+    "stage": {
+      "nextPhase": "The next phase is attaching real evaluation metrics and review logic."
+    },
+    "empty": {
+      "noWalletTitle": "No prop wallet created yet",
+      "noWalletCopy": "Log in and generate your dedicated prop wallet to begin the Sparta evaluation process."
+    },
+    "runtime": {
+      "unknown": "Unknown",
+      "chooseWallet": "Choose a wallet to sign in.",
+      "loginRequired": "Login required",
+      "connectFirst": "Connect your Sparta wallet first to view the evaluation wallet dashboard.",
+      "loginFirstNote": "Login first. After that, dashboard wallet details will appear here.",
+      "noTrackedWallet": "Your Sparta identity is connected, but there is no tracked prop wallet on file yet.",
+      "createWalletNote": "Create your prop wallet on the proptrading page to populate this dashboard.",
+      "trackedWallet": "Tracked Evaluation Wallet",
+      "created": "Created",
+      "walletAddress": "Wallet Address",
+      "chain": "Chain",
+      "bnbRollout": "Initial rollout uses the Sparta BNB environment.",
+      "programStatus": "Program Status",
+      "walletCreated": "Wallet created",
+      "tradeToBuild": "Trade through Sparta to begin building an evaluation history from this wallet.",
+      "fundingReview": "Funding Review",
+      "pendingMetrics": "Pending Metrics",
+      "scoringCopy": "Automated scoring and thresholds will expand from this foundation."
+    }
+  },
+  "legal": {
+    "common": {
+      "back": "← Back to Sparta",
+      "contactTitle": "Contact"
+    },
+    "fees": {
+      "documentTitle": "Sparta Fees",
+      "title": "Fees",
+      "intro": "Sparta may charge platform fees for certain trading, automation, referral, wallet-management, or premium features. Blockchain gas costs, DEX fees, RPC costs, creator fees, and other third-party protocol charges may also apply.",
+      "currentDisclosure": {
+        "title": "Current Disclosure",
+        "copy": "Any fees that apply to a specific Sparta feature should be shown in the relevant interface, workflow, or associated documentation at the time of use."
+      },
+      "thirdParty": {
+        "title": "Third-Party Costs",
+        "copy": "Third-party costs are outside Sparta’s control and may change at any time. These may include network gas, liquidity-provider fees, exchange fees, bridge fees, wallet-provider fees, and protocol-level creator or routing fees."
+      },
+      "updates": {
+        "title": "Updates",
+        "copy": "Sparta may update platform fees, introduce new fees, remove fees, or change how fees are calculated at any time. Continued use of Sparta after a fee update means you accept the updated fee structure."
+      },
+      "noRefund": {
+        "title": "No Refund Guarantee",
+        "copy": "Unless required by law or expressly stated otherwise by Sparta, fees and completed blockchain transaction costs are non-refundable."
+      },
+      "contact": "If you have any issues or questions about fees, contact"
+    },
+    "privacy": {
+      "documentTitle": "Sparta Privacy Policy",
+      "title": "Privacy Policy",
+      "intro": "This Privacy Policy explains how Sparta collects, uses, stores, and discloses information when you use the Sparta platform, website, trading tools, alerts, wallet features, and related services.",
+      "collect": {
+        "title": "Information We Collect",
+        "copy": "We may collect wallet addresses, device and browser data, usage information, search activity, referral data, support messages, notification preferences, and other information you submit through Sparta. If you create or import managed wallets, encrypted wallet material is stored on our servers so the feature can function."
+      },
+      "use": {
+        "title": "How We Use Information",
+        "copy": "We use information to operate Sparta, secure accounts and sessions, provide portfolio and trading features, improve platform performance, investigate abuse, comply with legal obligations, and communicate product or support updates."
+      },
+      "blockchain": {
+        "title": "Wallets And Blockchain Activity",
+        "copy": "Blockchain activity is public by nature. Sparta may associate public on-chain activity with your Sparta usage where needed to provide services such as wallet management, AI trading, transfers, alerts, referrals, copy trading, and analytics."
+      },
+      "managedWallets": {
+        "title": "Managed Wallets",
+        "copy": "If you use Sparta managed wallets, private keys are encrypted server-side before storage. You are responsible for backing up any private key shown to you during wallet creation. Sparta cannot recover a private key that is shown once and not saved by you."
+      },
+      "cookies": {
+        "title": "Cookies And Similar Technologies",
+        "copy": "Sparta may use cookies, local storage, and similar tools to maintain sessions, remember preferences, improve reliability, and protect against fraud or misuse."
+      },
+      "share": {
+        "title": "How We Share Information",
+        "copy": "We may share information with service providers, analytics providers, infrastructure partners, law enforcement, regulators, or other third parties where reasonably necessary to operate Sparta, protect users, enforce our terms, or comply with law. We do not sell your personal information for cash."
+      },
+      "retention": {
+        "title": "Data Retention",
+        "copy": "We retain information for as long as reasonably necessary for service operation, dispute resolution, security, recordkeeping, and legal compliance. Retention periods may vary depending on the type of data and the risks involved."
+      },
+      "security": {
+        "title": "Security",
+        "copy": "We use administrative, technical, and organizational measures intended to protect data. No system is completely secure, and you acknowledge that use of internet and blockchain services involves risk."
+      },
+      "choices": {
+        "title": "Your Choices",
+        "copy": "You may stop using Sparta at any time. Depending on the data involved, you may also request access, correction, or deletion where applicable law grants those rights. Some information may still be retained where required for security, fraud prevention, or legal compliance."
+      },
+      "international": {
+        "title": "International Use",
+        "copy": "Sparta may process information in multiple jurisdictions. By using Sparta, you understand that data may be transferred to and processed in countries that may have different data-protection rules than your home jurisdiction."
+      },
+      "children": {
+        "title": "Children",
+        "copy": "Sparta is not intended for children. If you are not legally permitted to use digital-asset services in your jurisdiction, you must not use Sparta."
+      },
+      "changes": {
+        "title": "Changes To This Policy",
+        "copy": "We may update this Privacy Policy from time to time. Continued use of Sparta after an update means you accept the revised policy."
+      },
+      "contact": "If you have any issues or questions about this Privacy Policy, contact"
+    },
+    "terms": {
+      "documentTitle": "Sparta Terms of Service",
+      "title": "Terms of Service",
+      "intro": "These Terms of Service govern your access to and use of the Sparta platform, website, interfaces, alerts, wallet tools, AI features, copy-trading features, analytics, and related services.",
+      "eligibility": {
+        "title": "Eligibility",
+        "copy": "You may only use Sparta if you are legally permitted to use digital-asset services in your jurisdiction and have the capacity to enter into a binding agreement."
+      },
+      "noAdvice": {
+        "title": "No Financial Advice",
+        "copy": "Sparta provides software, analytics, automation, monitoring, and information tools only. Sparta does not provide investment, legal, tax, brokerage, fiduciary, or other professional advice. You are solely responsible for your trading and wallet decisions."
+      },
+      "wallet": {
+        "title": "Wallet Responsibility",
+        "copy": "You are responsible for any wallet you connect, create, import, or use through Sparta. Transactions on blockchain networks are irreversible. Sparta is not responsible for losses caused by private-key loss, phishing, malware, user error, protocol failures, smart-contract bugs, or market movements."
+      },
+      "managedWallets": {
+        "title": "Managed Wallet Features",
+        "copy": "If you use managed-wallet features, you acknowledge that Sparta stores encrypted wallet material to provide those services. You are responsible for backing up private keys and recovery information shown during wallet creation."
+      },
+      "availability": {
+        "title": "Platform Availability",
+        "copy": "Sparta is provided on an “as is” and “as available” basis. We may change, suspend, limit, or discontinue features at any time without liability."
+      },
+      "fees": {
+        "title": "Fees",
+        "copy": "Your use of Sparta may involve platform fees, blockchain gas costs, trading fees, third-party protocol fees, or creator fees. You are responsible for all such charges associated with your activity. Separate fee disclosures may apply to specific features."
+      },
+      "prohibited": {
+        "title": "Prohibited Conduct",
+        "items": [
+          "Do not use Sparta in violation of law, sanctions, or third-party rights.",
+          "Do not engage in fraud, market manipulation, or abusive trading behavior.",
+          "Do not attempt unauthorized access, exploit vulnerabilities, scrape protected systems, or disrupt service availability.",
+          "Do not upload malicious code, impersonate others, or misuse Sparta automation features."
+        ]
+      },
+      "ip": {
+        "title": "Intellectual Property",
+        "copy": "Sparta and its branding, software, interfaces, and related materials are owned by Sparta or its licensors. Except as expressly allowed, you may not copy, modify, distribute, reverse engineer, or commercially exploit Sparta content or software."
+      },
+      "thirdParty": {
+        "title": "Third-Party Services",
+        "copy": "Sparta may rely on blockchains, RPC providers, exchanges, liquidity venues, data providers, wallets, notifications, and other third-party services. We are not responsible for downtime, data inaccuracies, outages, hacks, pricing errors, or other failures caused by third parties."
+      },
+      "risk": {
+        "title": "Risk Disclosure",
+        "copy": "Digital assets are highly volatile and risky. Tokens may become illiquid, manipulated, rugged, frozen, or worthless. Automated and AI-assisted trading can increase the speed and magnitude of losses."
+      },
+      "termination": {
+        "title": "Termination",
+        "copy": "We may suspend or terminate access to Sparta at any time, with or without notice, if we believe it is necessary for security, legal, operational, or abuse-prevention reasons."
+      },
+      "disclaimers": {
+        "title": "Disclaimers And Liability Limits",
+        "copy": "To the maximum extent permitted by law, Sparta disclaims warranties of merchantability, fitness for a particular purpose, non-infringement, and uninterrupted availability. Sparta will not be liable for indirect, incidental, special, consequential, exemplary, or lost-profit damages arising from your use of the platform."
+      },
+      "changes": {
+        "title": "Changes",
+        "copy": "We may update these Terms from time to time. Your continued use of Sparta after an update means you accept the revised Terms."
+      },
+      "contact": "If you have any issues or questions about these Terms, contact"
+    }
+  }
+}

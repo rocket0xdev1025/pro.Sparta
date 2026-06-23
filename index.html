@@ -1,0 +1,280 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title data-i18n="terminalHome.documentTitle">Sparta PRO</title>
+    <link rel="icon" type="image/png" href="/tempwebprev/th3m/newassets/logo-small.png?v=mpa6lbv4-1pdq" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@400;500;700&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="/styles.css?v=mqi40yx6-4tc7" />
+  </head>
+  <body>
+    <div class="app-shell">
+      <header class="hero">
+        <div class="hero-topbar">
+          <div class="mobile-topbar-left">
+            <a class="mobile-topbar-home" href="/" aria-label="Go to Sparta home">
+              <img class="mobile-topbar-home-image" src="/spartaicon.png?v=mpah7h72-gmf" alt="" />
+            </a>
+            <details class="mobile-nav-menu">
+              <summary class="mobile-nav-summary" aria-label="Open navigation menu">
+                <span></span>
+                <span></span>
+                <span></span>
+              </summary>
+              <div class="mobile-nav-dropdown" aria-label="Mobile navigation">
+                <div class="mobile-nav-links">
+                  <a class="more-link" data-sparta-page="discover" href="/bsc/discover" data-i18n="nav.discover">Discover</a>
+                  <a class="more-link" data-sparta-page="trade" href="/bsc/0xb2acf3ae051c7f0b0b8de90cbb4ed99312574444" data-i18n="nav.trade">Trade</a>
+                  <a class="more-link" href="/bsc/copytrade" data-i18n="nav.copyTrade">Copy Trade</a>
+                  <a class="more-link" href="/bsc/ai-trading" data-i18n="nav.aiTrading">AI Trading</a>
+                  <details class="mobile-submenu">
+                    <summary class="mobile-submenu-summary" data-i18n="nav.more">More</summary>
+                    <div class="mobile-nav-more-list">
+                      <a class="more-link" href="/transfer" data-i18n="nav.transfer">Transfer</a>
+                      <a class="more-link" href="/bsc/situation-room" data-i18n="nav.situationRoom">Situation Room</a>
+                      <a class="more-link" href="/bsc/events" data-i18n="nav.events">Events</a>
+                      <a class="more-link" href="/bsc/stats" data-i18n="nav.stats">Stats</a>
+                      <a class="more-link" href="/bsc/bridge" data-i18n="nav.bridge">Bridge</a>
+                      <a class="more-link" href="/points" data-i18n="nav.points">Points</a>
+                    </div>
+                  </details>
+                </div>
+              </div>
+            </details>
+            <details class="mobile-chain-menu">
+              <summary class="mobile-chain-summary">BNB</summary>
+              <div class="mobile-chain-dropdown" aria-label="Mobile chain selector">
+                <a class="network-pill is-active" href="/" aria-current="page">BNB</a>
+                <a class="network-pill" href="/sol">SOL</a>
+                <a class="network-pill" href="/eth">ETH</a>
+              </div>
+            </details>
+          </div>
+          <div class="hero-actions hero-actions-topbar">
+            <a class="topbar-home-icon" href="/" aria-label="Go to Sparta home">
+              <img class="topbar-home-icon-image" src="/spartaicon.png?v=mpah7h72-gmf" alt="" />
+            </a>
+            <details class="network-menu">
+              <summary class="network-summary">BNB</summary>
+              <div class="network-dropdown" aria-label="Chain selector">
+                <a class="network-pill is-active" href="/" aria-current="page">BNB</a>
+                <a class="network-pill" href="/sol">SOL</a>
+                <a class="network-pill" href="/eth">ETH</a>
+              </div>
+            </details>
+            <a class="settings-trigger" data-sparta-page="discover" href="/bsc/discover" data-i18n="nav.discover">Discover</a>
+            <a class="settings-trigger" data-sparta-page="trade" href="/bsc/0xb2acf3ae051c7f0b0b8de90cbb4ed99312574444" data-i18n="nav.trade">Trade</a>
+            <a class="settings-trigger" id="copytrade-trigger" href="/bsc/copytrade" data-i18n="nav.copyTrade">Copy Trade</a>
+            <a class="settings-trigger" href="/bsc/ai-trading" data-i18n="nav.aiTrading">AI Trading</a>
+            <details class="more-menu">
+              <summary class="settings-trigger more-summary" data-i18n="nav.more">More</summary>
+              <div class="more-dropdown" aria-label="More links">
+                <a class="more-link" data-sparta-page="keyword" href="/bsc/keyword" data-i18n="nav.keywordTrading">KeyWord Trading</a>
+                <a class="more-link" href="/transfer" data-i18n="nav.transfer">Transfer</a>
+                <a class="more-link" href="/bsc/situation-room" data-i18n="nav.situationRoom">Situation Room</a>
+                <a class="more-link" href="/bsc/events" data-i18n="nav.events">Events</a>
+                <a class="more-link" href="/bsc/bridge" data-i18n="nav.bridge">Bridge</a>
+              </div>
+            </details>
+          </div>
+          <div class="hero-search">
+            <label class="search-shell" for="token-search">
+              <span class="search-icon" aria-hidden="true"></span>
+              <input
+                class="search-input"
+                id="token-search"
+                type="text"
+                placeholder="SEARCH BY CA OR SYMBOL"
+              autocomplete="off"
+              autocapitalize="off"
+              autocorrect="off"
+              spellcheck="false"
+              name="sparta-ca-search"
+              data-i18n-placeholder="search.caOrSymbol" />
+            </label>
+          </div>
+          <div class="hero-utility">
+            <details class="alert-menu">
+              <summary class="alert-summary" id="alert-summary" aria-label="Open alerts menu" data-i18n-aria-label="alerts.openMenu">
+                <img class="alert-icon" src="/icons/icons8-alert-48.png?v=mn5c0fst-ns" alt="Alerts" />
+              </summary>
+              <div class="wallet-dropdown alert-dropdown" aria-label="Alerts menu" data-i18n-aria-label="alerts.menuLabel">
+                <div class="alert-dropdown-head" data-i18n-aria-label="alerts.menuLabel">
+                  <h3 data-i18n="alerts.title">Alerts</h3>
+                  <p data-i18n="alerts.description">Choose which Sparta rows should trigger alerts.</p>
+                </div>
+                <label class="alert-option">
+                  <input id="alert-ai-picks" type="checkbox" />
+                  <span data-i18n="alerts.newAiPick">New token in Sparta AI Picks</span>
+                </label>
+                <label class="alert-option">
+                  <input id="alert-migrated-picks" type="checkbox" />
+                  <span data-i18n="alerts.newMigratedPick">New token in Migrated</span>
+                </label>
+              </div>
+            </details>
+            <a class="settings-icon-link" data-sparta-page="settings" href="/bsc/settings" aria-label="Open settings" data-i18n-aria-label="nav.settings">
+              <svg class="settings-icon-svg" viewBox="0 0 24 24" aria-hidden="true">
+                <path fill-rule="evenodd" d="M11.078 2.25c-.917 0-1.699.663-1.85 1.567L9.05 4.889c-.02.12-.115.26-.297.348a7.493 7.493 0 0 0-.986.57c-.166.115-.334.126-.45.083L6.3 5.508a1.875 1.875 0 0 0-2.282.819l-.922 1.597a1.875 1.875 0 0 0 .432 2.385l.84.692c.095.078.17.229.154.43a7.598 7.598 0 0 0 0 1.139c.015.2-.059.352-.153.43l-.841.692a1.875 1.875 0 0 0-.432 2.385l.922 1.597a1.875 1.875 0 0 0 2.282.818l1.019-.382c.115-.043.283-.031.45.082.312.214.641.405.985.57.182.088.277.228.297.35l.178 1.071c.151.904.933 1.567 1.85 1.567h1.844c.916 0 1.699-.663 1.85-1.567l.178-1.072c.02-.12.114-.26.297-.349.344-.165.673-.356.985-.57.167-.114.335-.125.45-.082l1.02.382a1.875 1.875 0 0 0 2.28-.819l.923-1.597a1.875 1.875 0 0 0-.432-2.385l-.84-.692c-.095-.078-.17-.229-.154-.43a7.614 7.614 0 0 0 0-1.139c-.016-.2.059-.352.153-.43l.84-.692c.708-.582.891-1.59.433-2.385l-.922-1.597a1.875 1.875 0 0 0-2.282-.818l-1.02.382c-.114.043-.282.031-.449-.083a7.49 7.49 0 0 0-.985-.57c-.183-.087-.277-.227-.297-.348l-.179-1.072a1.875 1.875 0 0 0-1.85-1.567h-1.843ZM12 15.75a3.75 3.75 0 1 0 0-7.5 3.75 3.75 0 0 0 0 7.5Z" clip-rule="evenodd"/>
+              </svg>
+            </a>
+            <button class="theme-toggle" id="theme-toggle" type="button" aria-label="Toggle theme" data-i18n-aria-label="theme.toggle">
+              <span class="theme-toggle-track" aria-hidden="true"></span>
+              <span class="theme-toggle-label" id="theme-toggle-label">
+                <img class="theme-toggle-icon" src="/icons/icons8-dark-mode-50.png?v=mn5bxti8-q5" alt="Dark mode" data-i18n-aria-label="theme.darkMode" />
+              </span>
+            </button>
+            <details class="wallet-menu">
+              <summary class="profile-summary" id="profile-summary" aria-label="Open profile menu" data-i18n-aria-label="profile.openMenu">
+                <span class="profile-summary-avatar" id="profile-summary-avatar" aria-hidden="true">S</span>
+                <span class="profile-summary-copy">
+                  <span class="profile-summary-name" id="profile-summary-name">Spartan</span>
+                  <span class="profile-summary-id" id="profile-summary-id">Guest</span>
+                </span>
+              </summary>
+              <div class="wallet-dropdown profile-dropdown" id="profile-dropdown" aria-label="Profile menu" data-i18n-aria-label="profile.menuLabel"></div>
+            </details>
+          </div>
+        </div>
+        <div class="hero-brand">
+          <a class="brand-home-link" href="/" aria-label="Go to Sparta home">
+            <img class="brand-logo" src="/tempwebprev/th3m/newassets/SpartaPNG-03.png?v=mpah5k0v-gmf" alt="Sparta logo" />
+          </a>
+          <div>
+            <p class="eyebrow" data-i18n="terminalHome.hero.eyebrow">Sparta Monitor</p>
+            <h1 data-i18n="terminalHome.hero.title">Trading Terminal</h1>
+            <p class="hero-copy" data-i18n="terminalHome.hero.copy">
+              Sparta is your champion for trading on ◎ Solana, ❖ BSC, Ξ Ethereum and Ξ Base.
+            </p>
+          </div>
+        </div>
+      </header>
+
+      <main class="board" aria-label="Token rows" data-i18n-aria-label="terminalHome.board.ariaLabel">
+        <div class="mobile-row-switcher" aria-label="Mobile row selector" data-i18n-aria-label="discover.mobileRowSelector">
+          <button class="mobile-row-tab" type="button" data-mobile-row-tab="deploy" aria-pressed="false" data-i18n="discover.feeds.trending">
+            TRENDING
+          </button>
+          <button class="mobile-row-tab is-active" type="button" data-mobile-row-tab="ai-picks" aria-pressed="true" data-i18n="discover.feeds.aiPicks">
+            SPARTA AI PICKS
+          </button>
+          <button class="mobile-row-tab" type="button" data-mobile-row-tab="moonshots" aria-pressed="false" data-i18n="discover.feeds.migrated">
+            MIGRATED
+          </button>
+        </div>
+
+        <section class="board-row board-row-live" data-mobile-row-panel="deploy">
+          <div class="row-header">
+            <h2 data-i18n="discover.feeds.trending">TRENDING</h2>
+            <span id="deploy-status">LIVE</span>
+          </div>
+          <div class="token-feed" id="deploy-feed">
+            <article class="token-card token-card-empty">
+              <span data-i18n="discover.empty.trending">Trending tokens loading..</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="board-row is-mobile-active" data-mobile-row-panel="ai-picks">
+          <div class="row-header">
+            <h2 data-i18n="discover.feeds.aiPicks">SPARTA AI PICKS</h2>
+            <span id="ai-picks-status" data-i18n="terminalHome.status.waitingForData">Waiting for data</span>
+          </div>
+          <div class="token-feed" id="ai-picks-feed">
+            <article class="token-card token-card-empty">
+              <span data-i18n="discover.empty.aiPicks">Sparta AI Picks loading..</span>
+            </article>
+          </div>
+        </section>
+
+        <section class="board-row" data-mobile-row-panel="moonshots">
+          <div class="row-header">
+            <h2 data-i18n="discover.feeds.migrated">MIGRATED</h2>
+            <span id="migrated-ai-picks-status" data-i18n="terminalHome.status.hours24Zero">24 HOURS: 0</span>
+          </div>
+          <div class="token-feed" id="migrated-ai-picks-feed">
+            <article class="token-card token-card-empty token-card-empty-compact">
+              <span data-i18n="discover.empty.migrated">Migrated loading..</span>
+            </article>
+          </div>
+        </section>
+        <nav class="legal-link-row" aria-label="Legal links" data-i18n-aria-label="terminalHome.legal.ariaLabel">
+          <a class="legal-link" href="/privacy-policy" data-i18n="terminalHome.legal.privacy">Privacy policy</a>
+          <span class="legal-link-divider" aria-hidden="true">|</span>
+          <a class="legal-link" href="/terms-of-service" data-i18n="terminalHome.legal.terms">Terms of service</a>
+          <span class="legal-link-divider" aria-hidden="true">|</span>
+          <a class="legal-link" href="./fees.html" data-i18n="terminalHome.legal.fees">Fees</a>
+          <span class="legal-link-divider" aria-hidden="true">|</span>
+          <a class="legal-link" href="https://www.tradingview.com/" target="_blank" rel="noopener noreferrer" title="Charts are powered by TradingView" aria-label="Charts are powered by TradingView" data-i18n-title="terminalHome.legal.tradingViewTitle" data-i18n-aria-label="terminalHome.legal.tradingViewTitle">TradingView</a>
+        </nav>
+      </main>
+    </div>
+    <div class="buy-confirm-modal" id="high-fee-warn-modal" hidden>
+      <div class="buy-confirm-backdrop" id="high-fee-warn-backdrop"></div>
+      <section class="buy-confirm-card" role="dialog" aria-modal="true" aria-labelledby="high-fee-warn-title">
+        <div class="buy-confirm-head">
+          <div>
+            <p class="buy-confirm-kicker" data-i18n="terminalHome.highFee.kicker">High Fee Warning</p>
+            <h3 id="high-fee-warn-title" data-i18n="terminalHome.highFee.title">Fees are unusually high</h3>
+          </div>
+        </div>
+        <p class="buy-confirm-copy" id="high-fee-warn-copy"></p>
+        <label class="buy-confirm-checkbox">
+          <input id="high-fee-warn-skip" type="checkbox" />
+          <span data-i18n="terminalHome.highFee.skipAgain">Don't warn me again</span>
+        </label>
+        <div class="buy-confirm-actions">
+          <button class="settings-back" id="high-fee-warn-cancel" type="button" data-i18n="terminalHome.actions.cancel">Cancel</button>
+          <button class="settings-save" id="high-fee-warn-accept" type="button" data-i18n="terminalHome.actions.proceed">Proceed</button>
+        </div>
+      </section>
+    </div>
+    <div class="buy-confirm-modal" id="buy-confirm-modal" hidden>
+      <div class="buy-confirm-backdrop" id="buy-confirm-backdrop"></div>
+      <section class="buy-confirm-card" role="dialog" aria-modal="true" aria-labelledby="buy-confirm-title">
+        <div class="buy-confirm-head">
+          <div>
+            <p class="buy-confirm-kicker" data-i18n="terminalHome.buy.kicker">Buy Confirmation</p>
+            <h3 id="buy-confirm-title" data-i18n="terminalHome.buy.title">Proceed with buy?</h3>
+          </div>
+        </div>
+        <p class="buy-confirm-copy" id="buy-confirm-copy" data-i18n="terminalHome.buy.copy">Are you sure that you want to buy this token?</p>
+        <label class="buy-confirm-checkbox">
+          <input id="buy-confirm-skip" type="checkbox" />
+          <span data-i18n="terminalHome.buy.skipAgain">Don’t ask this again</span>
+        </label>
+        <div class="buy-confirm-actions">
+          <button class="settings-back" id="buy-confirm-cancel" type="button" data-i18n="terminalHome.actions.no">No</button>
+          <button class="settings-save" id="buy-confirm-accept" type="button" data-i18n="terminalHome.actions.yes">Yes</button>
+        </div>
+      </section>
+    </div>
+    <div class="buy-confirm-modal" id="buy-result-modal" hidden>
+      <div class="buy-confirm-backdrop" id="buy-result-backdrop"></div>
+      <section class="buy-confirm-card" role="dialog" aria-modal="true" aria-labelledby="buy-result-title">
+        <div class="buy-confirm-head">
+          <div>
+            <p class="buy-confirm-kicker" id="buy-result-kicker" data-i18n="terminalHome.result.submitted">Buy Submitted</p>
+            <h3 id="buy-result-title" data-i18n="terminalHome.result.transactionSent">Transaction sent</h3>
+          </div>
+        </div>
+        <p class="buy-confirm-copy" id="buy-result-copy" data-i18n="terminalHome.result.copy">Your buy was submitted.</p>
+        <div class="buy-result-links" id="buy-result-links"></div>
+        <div class="buy-confirm-actions">
+          <button class="settings-save" id="buy-result-close" type="button" data-i18n="terminalHome.actions.close">Close</button>
+        </div>
+      </section>
+    </div>
+    <script src="/i18n.js?v=mq196dgr-8dx"></script>
+    <script src="/profile-menu.js?v=mqin555c-2oix"></script>
+    <script src="/tour.js?v=mpsnutk5-eji"></script>
+    <script src="/script.js?v=mq4bolid-1rpf"></script>
+    <script src="/whitelist.js?v=mpog3sfo-d3f"></script>
+  </body>
+</html>
